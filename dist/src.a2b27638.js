@@ -184,10 +184,10 @@ function printHelloWorld() {
 }
 function addData() {
   var dataList = document.getElementById("data-list");
-  var element = document.createElement("elementTag");
+  var li = document.createElement("li");
   var textArea = document.getElementById("text-area");
-  element.appendChild(document.createTextNode(textArea.value));
-  dataList.appendChild(element);
+  li.appendChild(document.createTextNode(textArea.value));
+  dataList.appendChild(li);
 }
 },{"./styles.css":"src/styles.css"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];

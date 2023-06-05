@@ -10,8 +10,8 @@ function printHelloWorld() {
 
 function addData() {
     const dataList = document.getElementById("data-list");
-    const element = document.createElement("elementTag");
+    const li = document.createElement("li");
     const textArea = document.getElementById("text-area")
-    element.appendChild(document.createTextNode(textArea.value))
-    dataList.appendChild(element);
+    li.appendChild(document.createTextNode(textArea.value))
+    dataList.appendChild(li);
 }
